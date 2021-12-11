@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"Ping-Pong",
+			"matt",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Dodge-the-Ball",
+			"matt",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Serius",
+			"matt",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "matt",
+	"weekCharacters": [
+		"matt",
+		"bf",
+		"gf"
+	],
+	"storyName": "Why you going to sing with matt when he is training ping pong!!??",
+	"weekName": "Matt Wiik 5",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
