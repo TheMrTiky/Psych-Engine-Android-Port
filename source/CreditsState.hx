@@ -47,7 +47,7 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
 			['Matt Wiik 5'],
-			['MrTiky',		    'mrtiky',		    'test',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			['Mr Tiky',		    'mrtiky',		    'Main coder, spriter and songs',	 'https://www.youtube.com/channel/UCfvw4vqGD-RqvXP1tkH-tFA',	'0xFFC30085'],
 			['Android Port'],
 			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
 			['Psych Engine Team'],
