@@ -81,7 +81,12 @@ class ChartingState extends MusicBeatState
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
 		['MoveArrow', "Value 1: Note (0-7)\nValue 2: x value, y value, rotation, opacity (0-1), duration"],
 		['TweenSpin', "Makes the Receptors move in a circular motion\nBOTH VALUES ARE REQUIRED FOR THE EFFECT\nValue 1: How long to tween for (in seconds)\nValue 2: How big of a tween (in degrees) (360 for one spin, 720 for 2 spins)"],
-		['Opponent Fate', "Smoothly sets the Opponent's transparency value.\nValue 1: Duration (0 = Instant)\nValue 2: Target transparency value"]
+		['Opponent Fate', "Smoothly sets the Opponent's transparency value.\nValue 1: Duration (0 = Instant)\nValue 2: Target transparency value"],
+		['Gain', "Gives health everytime its  called, useful for giving someone health\nTHE VALUE IS REQUIRED FOR THE EFFECT TO DO SOMETHING\nValue 1 : How much health, half health is 1."],
+		['Dain', "Steals health everytime its  called, useful for Illusion, Hallucination, Crusify, etc.\nTHE VALUE IS REQUIRED FOR THE EFFECT TO DO SOMETHING\nValue 1 : How much health, half health is 1."],
+		['FlipUI', "Switches the scroll from up to down or down to up"},
+		['BF Fate', "Smoothly sets bf's transparency value.\nValue 1: Duration (0 = Instant)\nValue 2: Target transparency value"]
+		 
 	];
 	
 	var _file:FileReference;
