@@ -81,6 +81,7 @@ class ChartingState extends MusicBeatState
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
 		['MoveArrow', "Value 1: Note (0-7)\nValue 2: x value, y value, rotation, opacity (0-1), duration"]
 	];
+	
 	var _file:FileReference;
 
 	var UI_box:FlxUITabMenu;
