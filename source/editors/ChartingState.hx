@@ -87,7 +87,7 @@ class ChartingState extends MusicBeatState
 		['Opponent Fate', "Smoothly sets the Opponent's transparency value.\nValue 1: Duration (0 = Instant)\nValue 2: Target transparency value"],
 		['Gain', "Gives health everytime its  called, useful for giving someone health\nTHE VALUE IS REQUIRED FOR THE EFFECT TO DO SOMETHING\nValue 1 : How much health, half health is 1."],
 		['Dain', "Steals health everytime its  called, useful for Illusion, Hallucination, Crusify, etc.\nTHE VALUE IS REQUIRED FOR THE EFFECT TO DO SOMETHING\nValue 1 : How much health, half health is 1."],
-		['FlipUI', "Switches the scroll from up to down or down to up"},
+		['FlipUI', "Switches the scroll from up to down or down to up"],
 		['BF Fate', "Smoothly sets bf's transparency value.\nValue 1: Duration (0 = Instant)\nValue 2: Target transparency value"]
 		 
 	];
