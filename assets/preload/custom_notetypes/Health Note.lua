@@ -2,8 +2,8 @@ function onCreate()
 	--Iterate over all notes
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Blammed Note
-		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Blammed Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'BLAMNOTE_assets'); --Change texture
+		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Health Note' then
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'Health Note'); --Change texture
 
 			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') then --Doesn't let Dad/Opponent notes get ignored
 				setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', false); --Miss has penalties
@@ -19,7 +19,7 @@ end
 -- noteType: The note type string/tag
 -- isSustainNote: If it's a hold note, can be either true or false
 function noteMiss(funny, noteData, noteType , issus)
-	if noteType == 'Blammed Note' then
+	if noteType == 'Health Note' then
 		setProperty('health', -500);
 	end
 end
